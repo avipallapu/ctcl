@@ -1,4 +1,4 @@
-package trees;
+package graphs.model;
 
 import lombok.*;
 
@@ -11,12 +11,13 @@ import java.util.List;
 @AllArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class TreeNode {
+public class GraphNode {
     private Object val;
-    private List<TreeNode> children;
+    private boolean isVisited;
+    private List<GraphNode> neighbors;
 
-    public TreeNode(int i) {
+    public GraphNode(int i) {
         this.val = i;
-        this.children = new ArrayList<TreeNode>();
+        this.neighbors = new ArrayList<GraphNode>();
     }
 }

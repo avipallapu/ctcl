@@ -1,7 +1,8 @@
 package graphs;
 
+import graphs.model.Graph;
+import graphs.model.GraphNode;
 import lombok.extern.java.Log;
-import node.GraphNode;
 
 import java.util.ArrayList;
 import java.util.List;

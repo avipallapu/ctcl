@@ -1,7 +1,6 @@
-package graphs;
+package graphs.model;
 
 import lombok.*;
-import node.GraphNode;
 
 import java.util.List;
 
@@ -11,6 +10,6 @@ import java.util.List;
 @AllArgsConstructor
 @EqualsAndHashCode
 @ToString
-class Graph {
+public class Graph {
     private List<GraphNode> graphNodes;
 }
